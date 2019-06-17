@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sp1">
+        <item>Выбрать цвет</item>
+        <item>Белый</item>
+        <item>Оранжевый</item>
+        <item>Черный</item>
+        <item>Красный</item>
+    </string-array>
+    <string-array name="sp2">
+        <item>Выбрать цвет</item>
+        <item>Красный</item>
+        <item>Оранжевый</item>
+        <item>Белый</item>
+        <item>Черный</item>
+    </string-array>
+    <string-array name="sp3">
+        <item>Выбрать цвет</item>
+        <item>Черный</item>
+        <item>Белый</item>
+        <item>Красный</item>
+        <item>Оранжевый</item>
+    </string-array>
+</resources>

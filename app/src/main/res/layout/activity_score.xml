@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="kpimenov.flagquiz.ScoreActivity">
+
+            <TextView
+                android:id="@+id/txtResult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="Вы справились превосходно!"
+                android:textColor="#fff"
+                android:textSize="27dp" />
+
+            <RatingBar
+                android:id="@+id/rat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="70dp"
+                android:clickable="false"
+                android:focusable="false"
+                android:isIndicator="true"
+                android:progressBackgroundTint="@color/colorAccent2"
+                android:progressTint="@color/colorAccent"
+                android:secondaryProgressTint="@color/colorAccent2" />
+
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtResult"
+                android:layout_marginTop="140dp"
+                android:gravity="center"
+                android:text="Ваши баллы"
+                android:textColor="#fff"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/mScore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt"
+                android:gravity="center"
+                android:text="10.0"
+                android:textColor="#fff"
+                android:textSize="50dp" />
+
+            <TextView
+                android:id="@+id/txtValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/mScore"
+                android:gravity="center"
+                android:text="Верно сделано: "
+                android:textColor="#fff"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_marginTop="50dp"
+                android:id="@+id/txtTop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/txtValue"
+                android:gravity="center"
+                android:text="Лучший балл : "
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+    <Button
+        android:layout_above="@id/Rerun"
+        android:id="@+id/review"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="@color/colorAccent"
+        android:text="Посмотреть ответы"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/Rerun"
+        android:textColor="@color/colorAccent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:text="Начать заново"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>

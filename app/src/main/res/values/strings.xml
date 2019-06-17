@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Flag Quiz</string>
+    <string name="question_1">Какой страны этот флаг?</string>
+    <string name="question_3">Какой из этих флагов - флаг Индонезии?</string>
+    <string name="question_5">Какие цвета есть на флаге Бразилии?</string>
+    <string name="question_6">Какое название у флага США?</string>
+    <string name="question_7">Это флаг Южной Африки, сколько цветов на флаге?</string>
+    <string name="question_8">Это флаг Германии, установите порядок цветов, соответствующий флагу!</string>
+    <string name="question_9">Какой из этих флагов - флаг Новой Зеландии?</string>
+    <string name="question_10">При ком впервые был принят текущий флаг РФ? В каком году это было?</string>
+    <string name="flags_quiz">Flags Quiz!</string>
+    <string name="name_hint">Имя пользователя</string>
+    <string name="start">СТАРТ</string>
+</resources>
